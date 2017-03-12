@@ -1,0 +1,84 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 22px;
+}
+body {
+	background: #0d7792;
+	font-size: 12px;
+}
+table {
+	width: 640px;
+	margin: 0 auto;
+	background: #fff;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+fieldset {
+	border: 0;
+	padding: 0 10px;
+}
+fieldset legend {
+	font-weight: bold
+}
+td, th {
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	font-weight: normal;
+}
+font {
+	color: red
+}
+th {
+	width: 100px;
+	text-align: right
+}
+.wrapper {
+	width: 710px;
+	margin: 0 auto;
+	padding: 0 35px;
+	border-radius: 20px;
+	background-color: #fff;
+}
+.over {
+	overflow: hidden;
+	zoom: 1
+}
+.left {
+	float: left
+}
+.right {
+	float: right
+}
+p.right {
+	margin-top: 50px;
+	height: 22px;
+	line-height: 22px;
+}
+p.right a {
+	color: #FF0099;
+	margin-right: 20px;
+}
+header h3 {
+	height: 30px;
+	line-height: 30px;
+	margin: 15px 0;
+	font-size: 18px;
+	text-align: center
+}
+.title {
+	background: #eee;
+	color: #003399;
+	font-weight: bold;
+	text-indent: 1em
+}
+.info {
+	color: #0000ff
+}
+footer p {
+	height: 30px;
+	line-height: 30px;
+	text-align: center
+}/* CSS Document */
+

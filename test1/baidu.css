@@ -1,0 +1,103 @@
+@charset "utf-8";
+*, div, a {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	min-width: 830px;
+	min-height: 595px;
+	height: auto;
+	overflow: auto;
+	width: 100%;
+	background: #FFF;
+	font: 12px arial;
+	color: #999
+}
+.header {
+	text-align: right;
+	font-size: 13px;
+	font-weight: bold;
+	height: 22px;
+	line-height: 22px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.header a {
+	display: inline-block;
+	margin-left: 25px;
+	text-align: center;
+	color: #000;
+}
+.header a:hover {
+	color: #00c
+}
+.header a.more {
+	margin: 0 25px;
+	padding: 2px 5px;
+	text-decoration: none;
+	background: #38f;
+	color: #FFF
+}
+.center img {
+	display: block;
+	width: 270px;
+	margin: 0 auto
+}
+.center form {
+	margin: 22px auto 0;
+	text-align: left;
+	width: 641px;
+	overflow: hidden
+}
+.center p.text {
+	width: 520px;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-right: none;
+	padding: 5px 10px;
+	float: left;
+	overflow: hidden
+}
+.center p.text span {
+	width: 20px;
+	cursor: pointer;
+	height: 20px;
+	margin: 7px 0;
+	overflow: hidden;
+	float: left;
+	background : #fff url(camera.png) no-repeat;
+}
+.center p.text span:hover {
+	background-position: 0 -20px;
+}
+.center p.text input {
+	float: left;
+	width: 485px;
+	height: 25px;
+	line-height: 25px;
+	border: none;
+}
+.center button.baidu {
+	background: #38f;
+	color: #FFF;
+	width: 100px;
+	text-align: center;
+	border: none;
+	height: 37px;
+	float: left;
+}
+.foot {
+	text-align: center;
+	margin-top: 200px;
+	line-height: 30px;
+}
+.foot p.moble {
+	font-weight: bold;
+	color: #000;
+}
+.foot a {
+	color: #999;
+	margin-left: 25px;
+}
+/* CSS Document */
+
