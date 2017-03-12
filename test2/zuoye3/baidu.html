@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>百度首页</title>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script>
+$(document).ready(function(e) {
+    $(".more").mousemove(function (){
+		$("#moreul").show(); 
+		})
+		$("#moreul").mouseout(function(){ $(this).hide(); })
+});
+</script>
+<link href="style/baidu.css" rel="stylesheet" type="text/css">
+<style></style>
+</head>
+
+<body>
+<div class="wrapper"> 
+  <!--header start-->
+  <header>
+    <div class="header"> <a href="#" target="_blank">糯米</a><a href="#" target="_blank">新闻</a> <a href="#" target="_blank">hao123</a><a href="#" target="_blank">地图 </a><a href="#" target="_blank">视频</a> <a href="#" target="_blank">贴吧</a> <a href="#" target="_blank">登录</a> <a href="#" target="_blank">设置</a> <a href="#" class="more">更多产品</a>
+      <ul id="moreul">
+        <li class="title"><a>更多产品</a></li>
+        <li><a><span class="music"></span>音乐</a></li>
+        <li><a><span class="pic"></span>图片</a></li>
+        <li><a><span class="know"></span>知道</a></li>
+        <li><a><span class="article"></span>文库</a></li>
+        <li><a ><span class="bang"></span>风云榜</a></li>
+        <li class="gengduo"><a>全部产品&gt;&gt;</a></li>
+      </ul>
+    </div>
+  </header>
+  <!--header end--> 
+  <!--article start-->
+  <article>
+    <div class="center"><img src="image/logo1.png">
+      <form>
+        <p class="text">
+          <input type="text">
+          <span></span> </p>
+        <button class="baidu">百度一下</button>
+      </form>
+    </div>
+  </article>
+  <!--article end--> 
+  <!--footer start-->
+  <footer>
+    <div class="foot"> <img src="image/zbios_efde696.png">
+      <p class="moble">手机百度</p>
+      <p><a href="#">把百度设为主页</a><a href="#">关于百度</a><a href="#">About  Baidu</a><a href="#">百度推广</a></p>
+      <p>©2016 Baidu <a href="#">使用百度前必读</a><a href="#">意见反馈</a> 京ICP证030173号  京公网安备11000002000001号</p>
+    </div>
+  </footer>
+  <!--footer end--> 
+</div>
+</body>
+</html>
